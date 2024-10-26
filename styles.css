@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #343a40;
+  --bg-color: #f4f4f9;
+  --text-color: #666;
+  --accent-color: #ffc107;
+  --footer-bg-color: #151310;
+  --footer-text-color: #fff;
+  --input-bg-color: #360ed6;
+  --input-border-color: #555;
+  --btn-hover-bg: #e0a800;
+  --back-to-top-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.post {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--footer-text-color);
+  padding: 20px;
+}
+
+.footer h5 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--footer-bg-color);
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form .form-label {
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+  background-color: var(--input-bg-color);
+  color: var(--footer-text-color);
+  border: 1px solid var(--input-border-color);
+}
+
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent-color);
+  box-shadow: none;
+}
+
+.contact-form .btn-primary {
+  background-color: var(--footer-bg-color);
+  border-color: var(--accent-color);
+}
+
+.contact-form .btn-primary:hover {
+  background-color: var(--btn-hover-bg);
+  border-color: var(--btn-hover-bg);
+}
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--back-to-top-color);
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#backToTopBtn:hover {
+  background-color: var(--btn-hover-bg);
+}
