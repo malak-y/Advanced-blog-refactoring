@@ -1,3 +1,8 @@
+
+
+# This is the code that i refactor it click here : 
+    https://drive.google.com/drive/folders/1O_rnGUPU-XDgSL9xCUvKr6GiDxf5GyOh
+
 # My Advanced Blog
 
 Welcome to **My Advanced Blog**! This project is a modern, responsive blog layout built with HTML, CSS, and Bootstrap. It includes features like a main blog post section, a sidebar with useful links and recent posts, a contact form in the footer, and a "Back to Top" button. The project demonstrates clean, structured code with CSS variables for easy theme management.
